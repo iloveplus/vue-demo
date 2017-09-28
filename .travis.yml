@@ -1,0 +1,33 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  - rm -rf dist
+  - npm run build
+
+after_script:
+  - cp -r CNAME dist
+  - cp -r README.md dist
+  - cd ./dist
+  - git init
+  - git config user.name "iloveplus"
+  - git config user.email "531792740@qq.com"
+  - git add .
+  - git commit -m "demo示例"
+  - git push --force --quiet "https://${travisToken}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - source
+env:
+ global:
+   - GH_REF: github.com/iloveplus/vue-demo.git
