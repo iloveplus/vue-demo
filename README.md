@@ -14,6 +14,9 @@
 </style>
 ```
 
+## DEMO ADDRESS
+[http://vue.iloveplus.cn](http://vue.iloveplus.cn)
+
 ## Build Setup
 
 ``` bash
@@ -31,3 +34,6 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## BLOG ADRESS
+[http://www.iloveplus.cn](http://www.iloveplus.cn)
