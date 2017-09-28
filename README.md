@@ -1,5 +1,8 @@
 # vue-demo
 
+[![Build Status](https://api.travis-ci.org/iloveplus/vue-demo.svg?branch=source)](https://travis-ci.org/iloveplus/vue-demo)
+
+
 > 支持scss，flexible，px2rem等
 > vue-router, vuex
 

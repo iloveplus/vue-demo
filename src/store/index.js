@@ -24,7 +24,7 @@ const state = {
 		"topic_answer": [{
 			"topic_answer_id": 1,
 			"topic_id": 20,
-			"answer_name": "答案aaaa",
+			"answer_name": "选择答案A",
 			"is_standard_answer": 0
 		}, {
 			"topic_answer_id": 2,
@@ -34,12 +34,12 @@ const state = {
 		}, {
 			"topic_answer_id": 3,
 			"topic_id": 20,
-			"answer_name": "答案cccc",
+			"answer_name": "选择答案C",
 			"is_standard_answer": 0
 		}, {
 			"topic_answer_id": 4,
 			"topic_id": 20,
-			"answer_name": "答案dddd",
+			"answer_name": "选择答案D",
 			"is_standard_answer": 1
 		}]
 	}, {
