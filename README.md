@@ -3,28 +3,10 @@
 > 支持scss，flexible，px2rem等
 > vue-router, vuex
 
-## USE
-```
-<style lang="scss" scoped>
-@import '../style/mixin';
-@import './styles.scss';
-</style>
-```
+# 代码
+> 切换到[source](https://github.com/iloveplus/vue-demo/tree/source)分支
 
-## Build Setup
+https://github.com/iloveplus/vue-demo/tree/source
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:9090
-npm run dev/npm start
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 示例
+[vue.iloveplus.cn](vue.iloveplus.cn)
